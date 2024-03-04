@@ -31,6 +31,7 @@ Once finish training, we can generate 100 images (or as many as you want) by:
 cd ./train_results/name_of_your_training/
 python eval.py --n_sample 100 
 ```
+After generation of the synthetic images we can train an encoder on the images to learn the features of normal images and then test it.
 ```
 cd ../..
 python tr_encoder.py t--path train_results/test1/eval_10000/img --iter 10
