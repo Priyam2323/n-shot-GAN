@@ -31,10 +31,10 @@ Once finish training, we can generate 100 images (or as many as you want) by:
 cd ./train_results/name_of_your_training/
 python eval.py --n_sample 100 
 ```
-
+```
 cd ../..
 python tr_encoder.py t--path train_results/test1/eval_10000/img --iter 10
 python test_ad.py  #mention the path in test_ad.py file of test dataset
 
-
+```
 
